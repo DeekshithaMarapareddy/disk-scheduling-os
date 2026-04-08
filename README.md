@@ -1,9 +1,9 @@
 # Disk Scheduling Algorithms (OS Project)
 
-## 📌 Description
+##  Description
 This project implements and compares different disk scheduling algorithms used in Operating Systems.
 
-## 🚀 Algorithms Implemented
+##  Algorithms Implemented
 - FCFS (First Come First Serve)
 - SSTF (Shortest Seek Time First)
 - SCAN (Elevator Algorithm)
@@ -11,27 +11,27 @@ This project implements and compares different disk scheduling algorithms used i
 - LOOK
 - C-LOOK
 
-## 📊 Objective
+##  Objective
 To compare algorithms based on total head movement and performance.
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 gcc disk_scheduling.c -o disk
 ./disk
-📥 Example Input
+ Example Input
 
 Requests: 98 183 37 122 14 124 65 67
 Head: 53
 Disk Size: 200
 
-📈 Output
+ Output
 
 Displays:
 
 Order of execution
 Total head movement for each algorithm
-🧠 Conclusion
+ Conclusion
 
 Algorithms like LOOK and C-LOOK generally perform better by reducing unnecessary head movement.
 
